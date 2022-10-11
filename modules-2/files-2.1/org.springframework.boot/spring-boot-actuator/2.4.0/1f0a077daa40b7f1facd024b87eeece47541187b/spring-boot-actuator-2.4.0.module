@@ -1,0 +1,119 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework.boot",
+    "module": "spring-boot-actuator",
+    "version": "2.4.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7",
+      "buildId": "mvyzo376xrclzmtc74kg6q2ueu"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-actuator-2.4.0.jar",
+          "url": "spring-boot-actuator-2.4.0.jar",
+          "size": 591753,
+          "sha512": "ca82dac38640c487b5a59d3ce8b607e712aaf05d56c079fa5376b6858f402d0b78f6672343f0971f2d3c2f6ae0bac272513f3c556f511db8346392dadab7c111",
+          "sha256": "8351b872ee2331e0b0137d60e468d47115b2358b8c41b197a1dd92476e7e6c7a",
+          "sha1": "ac95643b64bb2784cb9f041fc5a59afcad3a11e5",
+          "md5": "a08a05b13e3a42c38ef0d50c9d00cf5c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-actuator-2.4.0.jar",
+          "url": "spring-boot-actuator-2.4.0.jar",
+          "size": 591753,
+          "sha512": "ca82dac38640c487b5a59d3ce8b607e712aaf05d56c079fa5376b6858f402d0b78f6672343f0971f2d3c2f6ae0bac272513f3c556f511db8346392dadab7c111",
+          "sha256": "8351b872ee2331e0b0137d60e468d47115b2358b8c41b197a1dd92476e7e6c7a",
+          "sha1": "ac95643b64bb2784cb9f041fc5a59afcad3a11e5",
+          "md5": "a08a05b13e3a42c38ef0d50c9d00cf5c"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-actuator-2.4.0-javadoc.jar",
+          "url": "spring-boot-actuator-2.4.0-javadoc.jar",
+          "size": 1251674,
+          "sha512": "d52d18c24c3657c7b59286e9d975f697ee5485f7c1ecea31c2af52395051e0303f285b788e520d82443f1830fac58102a3d822370ccbb90e38d81ab7b61ee8bb",
+          "sha256": "7b01221e605ce57d401718649e2e68396886726f7c86ba514acb0b50e7057997",
+          "sha1": "3a60dd84a7dd66eddd1fca026973f373e66bfab0",
+          "md5": "7ec0cd8178516f1d600de480163ae42a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-actuator-2.4.0-sources.jar",
+          "url": "spring-boot-actuator-2.4.0-sources.jar",
+          "size": 425891,
+          "sha512": "cd6dfb943be256c4947f0771ec78243015c5fd324e856ad8beebcc58a3ca3f60464ef78e54b5975eb53491a1641577a25b68f4fb2d8484c5250588696575fb57",
+          "sha256": "54d189282347fe8ec6301ae6f493b05f0c32a32ef7db2f41ad2827a5ed73ca36",
+          "sha1": "66f658405980ee53ea4d5789b3d8029ed4d7c4a5",
+          "md5": "7081a520ee53c0d348f16c0381e0f5d2"
+        }
+      ]
+    }
+  ]
+}

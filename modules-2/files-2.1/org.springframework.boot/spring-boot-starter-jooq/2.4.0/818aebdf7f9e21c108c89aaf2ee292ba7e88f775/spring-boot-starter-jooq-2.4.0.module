@@ -1,0 +1,195 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework.boot",
+    "module": "spring-boot-starter-jooq",
+    "version": "2.4.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7",
+      "buildId": "mvyzo376xrclzmtc74kg6q2ueu"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-jdbc",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "jakarta.activation",
+          "module": "jakarta.activation-api",
+          "version": {
+            "requires": "1.2.2"
+          }
+        },
+        {
+          "group": "jakarta.xml.bind",
+          "module": "jakarta.xml.bind-api",
+          "version": {
+            "requires": "2.3.3"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-tx",
+          "version": {
+            "requires": "5.3.1"
+          }
+        },
+        {
+          "group": "org.jooq",
+          "module": "jooq",
+          "version": {
+            "requires": "3.14.3"
+          },
+          "excludes": [
+            {
+              "group": "javax.xml.bind",
+              "module": "jaxb-api"
+            },
+            {
+              "group": "javax.activation",
+              "module": "javax.activation-api"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-starter-jooq-2.4.0.jar",
+          "url": "spring-boot-starter-jooq-2.4.0.jar",
+          "size": 4793,
+          "sha512": "458c82a4fd0f0bd4dc5260e96ee1bf5cda0b6cb20c64726eee1c81a0152a493dc497ad3bcba7c7fe7db106a723fae9aa0c721951ca4c05c415e499e015eb77b5",
+          "sha256": "0f299f37882a894d8ab750b825cf521ddee8264bc103694be8433bdac52351c1",
+          "sha1": "b026c0dbe278e6d53b6dbf532d5e152b41ae3ec8",
+          "md5": "835cb1040014fe356766a2d74ddf4286"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-jdbc",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "jakarta.activation",
+          "module": "jakarta.activation-api",
+          "version": {
+            "requires": "1.2.2"
+          }
+        },
+        {
+          "group": "jakarta.xml.bind",
+          "module": "jakarta.xml.bind-api",
+          "version": {
+            "requires": "2.3.3"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-tx",
+          "version": {
+            "requires": "5.3.1"
+          }
+        },
+        {
+          "group": "org.jooq",
+          "module": "jooq",
+          "version": {
+            "requires": "3.14.3"
+          },
+          "excludes": [
+            {
+              "group": "javax.xml.bind",
+              "module": "jaxb-api"
+            },
+            {
+              "group": "javax.activation",
+              "module": "javax.activation-api"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-starter-jooq-2.4.0.jar",
+          "url": "spring-boot-starter-jooq-2.4.0.jar",
+          "size": 4793,
+          "sha512": "458c82a4fd0f0bd4dc5260e96ee1bf5cda0b6cb20c64726eee1c81a0152a493dc497ad3bcba7c7fe7db106a723fae9aa0c721951ca4c05c415e499e015eb77b5",
+          "sha256": "0f299f37882a894d8ab750b825cf521ddee8264bc103694be8433bdac52351c1",
+          "sha1": "b026c0dbe278e6d53b6dbf532d5e152b41ae3ec8",
+          "md5": "835cb1040014fe356766a2d74ddf4286"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-starter-jooq-2.4.0-javadoc.jar",
+          "url": "spring-boot-starter-jooq-2.4.0-javadoc.jar",
+          "size": 4743,
+          "sha512": "850c40188d8463efcb94ac8b8187e783f73245631921e649f5cd88b6cbf9249bc9607ba34726b841988b6a1a4dedb73b0c9867c38b7ab20e41ea63dafc9fb35c",
+          "sha256": "b135814e43cd063cce14b968f7937d95d426f6008905f0d96b72879a073515f9",
+          "sha1": "55efaf525ea287cb8b818e05e59677b598347a18",
+          "md5": "f0352f1ca0f1a1871afe4206c033d728"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-starter-jooq-2.4.0-sources.jar",
+          "url": "spring-boot-starter-jooq-2.4.0-sources.jar",
+          "size": 4740,
+          "sha512": "294507b64e2a755a639891f2bccf2c1be338a19d117feff3f636c12ac92f743ec488a1f67b937d508aec33d14406e796494bdbf967a13e121f9437f4f6483ddb",
+          "sha256": "dfb02f27713b4baabafbc51abd4c98e4e1a8bc66804f340085c3fa23c4297259",
+          "sha1": "3e6607895dd5526cee5d24e6ecc3bb638b3aa5f9",
+          "md5": "0b27d604387c7ca1bc1c73e1f5667c24"
+        }
+      ]
+    }
+  ]
+}

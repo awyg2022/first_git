@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework.boot",
+    "module": "spring-boot",
+    "version": "2.4.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7",
+      "buildId": "mvyzo376xrclzmtc74kg6q2ueu"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.1"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-context",
+          "version": {
+            "requires": "5.3.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-2.4.0.jar",
+          "url": "spring-boot-2.4.0.jar",
+          "size": 1299025,
+          "sha512": "7039bd7a790ab6be7b91f36888be3467a114afd15e3e4e7385958386e9631d3e4b778356589ffd4c3d361c4d4db741afb830fbac0a6437ed730790ad2a9fad13",
+          "sha256": "450717f9436d6ba146ee7225e9fdeb35a9870f1da60274396a4cfbbd6695554e",
+          "sha1": "d8c0caa04526c8cc1dfcbb9c5badae3c99c49884",
+          "md5": "0cb028ec70bc83c6057fb46f2223b034"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.1"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-context",
+          "version": {
+            "requires": "5.3.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-2.4.0.jar",
+          "url": "spring-boot-2.4.0.jar",
+          "size": 1299025,
+          "sha512": "7039bd7a790ab6be7b91f36888be3467a114afd15e3e4e7385958386e9631d3e4b778356589ffd4c3d361c4d4db741afb830fbac0a6437ed730790ad2a9fad13",
+          "sha256": "450717f9436d6ba146ee7225e9fdeb35a9870f1da60274396a4cfbbd6695554e",
+          "sha1": "d8c0caa04526c8cc1dfcbb9c5badae3c99c49884",
+          "md5": "0cb028ec70bc83c6057fb46f2223b034"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-2.4.0-javadoc.jar",
+          "url": "spring-boot-2.4.0-javadoc.jar",
+          "size": 1918203,
+          "sha512": "11eeed79e3dcd86d71fc8125347a2650718292671be9e0fbf6e412f4445da6dfb5ac33b20882e99f4712eae7b8a9bff6e809b3cdc8535c09a45d8a11ccd60d5a",
+          "sha256": "97526fbaeb8c4a0d21226ca1b985d3848b4d61521af89be271d773c84af87473",
+          "sha1": "9619c03827dca5786cbace218553183ce135c11f",
+          "md5": "be9727b1caad61fb0b39c49460ca4a64"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-2.4.0-sources.jar",
+          "url": "spring-boot-2.4.0-sources.jar",
+          "size": 936287,
+          "sha512": "d65c8723133b06332ce610d105eaed6d1609a9ab68239eb8d9ec4c1ee07ba6a52311d9e1a8a03f62295e721097adfa5c6fbc5750e38a58d23875e8fe82f0fa36",
+          "sha256": "1f6910b3530472599a29bb6560cb6b0d8b97e91581a3d4a10a59692b42909184",
+          "sha1": "92ec1b319d5fd66e95d95240e0978fe954449202",
+          "md5": "1cbd06f5f10d5ec3df37ba12d3c095c1"
+        }
+      ]
+    }
+  ]
+}

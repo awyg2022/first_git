@@ -1,0 +1,251 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework.boot",
+    "module": "spring-boot-starter-data-jpa",
+    "version": "2.4.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7",
+      "buildId": "mvyzo376xrclzmtc74kg6q2ueu"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-aop",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-jdbc",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "jakarta.transaction",
+          "module": "jakarta.transaction-api",
+          "version": {
+            "requires": "1.3.3"
+          }
+        },
+        {
+          "group": "jakarta.persistence",
+          "module": "jakarta.persistence-api",
+          "version": {
+            "requires": "2.2.3"
+          }
+        },
+        {
+          "group": "org.hibernate",
+          "module": "hibernate-core",
+          "version": {
+            "requires": "5.4.23.Final"
+          },
+          "excludes": [
+            {
+              "group": "javax.xml.bind",
+              "module": "jaxb-api"
+            },
+            {
+              "group": "javax.activation",
+              "module": "javax.activation-api"
+            },
+            {
+              "group": "javax.persistence",
+              "module": "javax.persistence-api"
+            },
+            {
+              "group": "org.jboss.spec.javax.transaction",
+              "module": "jboss-transaction-api_1.2_spec"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.data",
+          "module": "spring-data-jpa",
+          "version": {
+            "requires": "2.4.1"
+          },
+          "excludes": [
+            {
+              "group": "org.aspectj",
+              "module": "aspectjrt"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-aspects",
+          "version": {
+            "requires": "5.3.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-starter-data-jpa-2.4.0.jar",
+          "url": "spring-boot-starter-data-jpa-2.4.0.jar",
+          "size": 4757,
+          "sha512": "377c00be14cd9feb37cabc427a1188f200f28f1f629181a124893310e90119cc7a1781f259494d5d0848f984a15604f9f3a8586a9852dbd81610793c6d67f6a2",
+          "sha256": "862d692f587d896be715ddf8920709ee688464794ecd2f5bb4c8da64249f946b",
+          "sha1": "fd0c82c6582c09f9525e40d79e06c314d81daa9d",
+          "md5": "5d8375f92f2fddbd84dccb3dc9ab73f4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-aop",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-jdbc",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "jakarta.transaction",
+          "module": "jakarta.transaction-api",
+          "version": {
+            "requires": "1.3.3"
+          }
+        },
+        {
+          "group": "jakarta.persistence",
+          "module": "jakarta.persistence-api",
+          "version": {
+            "requires": "2.2.3"
+          }
+        },
+        {
+          "group": "org.hibernate",
+          "module": "hibernate-core",
+          "version": {
+            "requires": "5.4.23.Final"
+          },
+          "excludes": [
+            {
+              "group": "javax.xml.bind",
+              "module": "jaxb-api"
+            },
+            {
+              "group": "javax.activation",
+              "module": "javax.activation-api"
+            },
+            {
+              "group": "javax.persistence",
+              "module": "javax.persistence-api"
+            },
+            {
+              "group": "org.jboss.spec.javax.transaction",
+              "module": "jboss-transaction-api_1.2_spec"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.data",
+          "module": "spring-data-jpa",
+          "version": {
+            "requires": "2.4.1"
+          },
+          "excludes": [
+            {
+              "group": "org.aspectj",
+              "module": "aspectjrt"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-aspects",
+          "version": {
+            "requires": "5.3.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-starter-data-jpa-2.4.0.jar",
+          "url": "spring-boot-starter-data-jpa-2.4.0.jar",
+          "size": 4757,
+          "sha512": "377c00be14cd9feb37cabc427a1188f200f28f1f629181a124893310e90119cc7a1781f259494d5d0848f984a15604f9f3a8586a9852dbd81610793c6d67f6a2",
+          "sha256": "862d692f587d896be715ddf8920709ee688464794ecd2f5bb4c8da64249f946b",
+          "sha1": "fd0c82c6582c09f9525e40d79e06c314d81daa9d",
+          "md5": "5d8375f92f2fddbd84dccb3dc9ab73f4"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-starter-data-jpa-2.4.0-javadoc.jar",
+          "url": "spring-boot-starter-data-jpa-2.4.0-javadoc.jar",
+          "size": 4747,
+          "sha512": "b570ed8a3ae4f4956a414d32b8922f31fda1aa9fa0521b5027c9a1b6bb2d4b05e98214f4c3db3308afa063efb5638ff4ae90c2627e94a3948bed78793d5f15c0",
+          "sha256": "6765ec445843172660267f1a5ee55ea171420ee90bc8ecdd0698e86cc24ece2a",
+          "sha1": "c0c6b6a3b7f45a10644c4d59393bf7328e66403a",
+          "md5": "464aa2cb54787b9411fdecb70dcadf25"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-starter-data-jpa-2.4.0-sources.jar",
+          "url": "spring-boot-starter-data-jpa-2.4.0-sources.jar",
+          "size": 4745,
+          "sha512": "8dfad0cd264a61223b8d210d6d3f235672b8275524a198aec2791d0424547cb75d6e275ba7fe52228bfe918b90fb0e1cadbfba4e385a606c2015206103353132",
+          "sha256": "58f5aadddde939454e8676cab35fd562937add9698773eaf78abbdbd6fce9199",
+          "sha1": "5b400cd3a704e55fdcec0025396c02c71a509f06",
+          "md5": "8abf2a3c69612ce69bd16c35c1b5af1b"
+        }
+      ]
+    }
+  ]
+}

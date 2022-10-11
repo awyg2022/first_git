@@ -1,0 +1,22 @@
+{
+  "name": "git_test",
+  "version": "1.0.0",
+  "description": "No ",
+  "main": "index.js",
+  "scripts": {
+    "test": "app node.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/awyg2022/first_git.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/awyg2022/first_git/issues"
+  },
+  "homepage": "https://github.com/awyg2022/first_git#readme",
+  "devDependencies": {
+    "webpack": "^5.74.0"
+  }
+}

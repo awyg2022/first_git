@@ -1,0 +1,147 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework.boot",
+    "module": "spring-boot-starter-actuator",
+    "version": "2.4.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7",
+      "buildId": "mvyzo376xrclzmtc74kg6q2ueu"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-actuator-autoconfigure",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "io.micrometer",
+          "module": "micrometer-core",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-starter-actuator-2.4.0.jar",
+          "url": "spring-boot-starter-actuator-2.4.0.jar",
+          "size": 4805,
+          "sha512": "afd275f1f2ef9f6a0f7eec5724761805d9ac856dd497c0ea77787083c1a2b91577397a710e4dc1cec294ab8133b03b03279c90a0f2e9dad76e7c411822175677",
+          "sha256": "f67fdeeed1095a011cdde2d3074344bf713a0cdd6127499e051137f05989193f",
+          "sha1": "9b84db09f3ef2b97baf05fe4c6d9446849ca5962",
+          "md5": "52e7dc608114cdea6d9e2145ddb22eb2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-actuator-autoconfigure",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "io.micrometer",
+          "module": "micrometer-core",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-starter-actuator-2.4.0.jar",
+          "url": "spring-boot-starter-actuator-2.4.0.jar",
+          "size": 4805,
+          "sha512": "afd275f1f2ef9f6a0f7eec5724761805d9ac856dd497c0ea77787083c1a2b91577397a710e4dc1cec294ab8133b03b03279c90a0f2e9dad76e7c411822175677",
+          "sha256": "f67fdeeed1095a011cdde2d3074344bf713a0cdd6127499e051137f05989193f",
+          "sha1": "9b84db09f3ef2b97baf05fe4c6d9446849ca5962",
+          "md5": "52e7dc608114cdea6d9e2145ddb22eb2"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-starter-actuator-2.4.0-javadoc.jar",
+          "url": "spring-boot-starter-actuator-2.4.0-javadoc.jar",
+          "size": 4746,
+          "sha512": "4533a1b4f625360a0c1b7b3cfa22927c97fa46043d5dd28a28497d613930b638105b51967ab8599792b70e6f342f92f8f199e22a2f354612ce5156b643139655",
+          "sha256": "3c38c4d06d93363b12e4bacc6f53292aa29833b7c60f7ac04f6ee9a61f237c2d",
+          "sha1": "5acfe3e990db6cf58e5a1ddc4c5e2d1acc811655",
+          "md5": "c67ffbaea82e1a7ce0027f0ba5f1db13"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-starter-actuator-2.4.0-sources.jar",
+          "url": "spring-boot-starter-actuator-2.4.0-sources.jar",
+          "size": 4743,
+          "sha512": "1067992f2436c45e5055268f197f3fd4ee1affe25c29ef4db9a05da427678567bb45a21229a8d27c29e2aa9ea15bbfa78fc7113093c08d8b4d5a76cab6c4256b",
+          "sha256": "f240a6565be025015cdd45e5a94929b55606ec12058a6c7682212710ebe11b20",
+          "sha1": "bf51fc901987bbe3d0e5c43c52690b76c52dbf12",
+          "md5": "a6e6958056fce6ed8b9e7a00ca7428a3"
+        }
+      ]
+    }
+  ]
+}

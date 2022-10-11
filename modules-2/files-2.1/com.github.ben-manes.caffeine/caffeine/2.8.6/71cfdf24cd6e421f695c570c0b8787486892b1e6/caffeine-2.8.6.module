@@ -1,0 +1,162 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.ben-manes.caffeine",
+    "module": "caffeine",
+    "version": "2.8.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7-rc-4",
+      "buildId": "23nlcck3q5blfhnc4qbmxa6raa"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.checkerframework",
+          "module": "checker-qual",
+          "version": {
+            "requires": "3.7.0"
+          }
+        },
+        {
+          "group": "com.google.errorprone",
+          "module": "error_prone_annotations",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "caffeine-2.8.6.jar",
+          "url": "caffeine-2.8.6.jar",
+          "size": 922041,
+          "sha512": "1f4f7ac92645779217b17567dd7290f006383d052c26a0faabdd4002c81949d9d0d1b39d3f5eaf4d5e590e22f1f7ad504c165f05a1cc65cee8716c3908d873d9",
+          "sha256": "230af102f4b41ca93b84447fcb6d105b7d736290a6142a99bcddcf3ca402fdbf",
+          "sha1": "4a5b7001467bac95e593322f800d353280a75eff",
+          "md5": "92a7717d784ea48b07404a7ff843ce87"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.checkerframework",
+          "module": "checker-qual",
+          "version": {
+            "requires": "3.7.0"
+          }
+        },
+        {
+          "group": "com.google.errorprone",
+          "module": "error_prone_annotations",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "caffeine-2.8.6.jar",
+          "url": "caffeine-2.8.6.jar",
+          "size": 922041,
+          "sha512": "1f4f7ac92645779217b17567dd7290f006383d052c26a0faabdd4002c81949d9d0d1b39d3f5eaf4d5e590e22f1f7ad504c165f05a1cc65cee8716c3908d873d9",
+          "sha256": "230af102f4b41ca93b84447fcb6d105b7d736290a6142a99bcddcf3ca402fdbf",
+          "sha1": "4a5b7001467bac95e593322f800d353280a75eff",
+          "md5": "92a7717d784ea48b07404a7ff843ce87"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "caffeine-2.8.6-javadoc.jar",
+          "url": "caffeine-2.8.6-javadoc.jar",
+          "size": 150126,
+          "sha512": "a1fa2fca17cc9430c7c1e6be905ccd06ef7a5539357a70a7db5ee8078b32840063d367d54f15e4291efe2b9e903dc15055e188f018c2f9badde349bb883968a5",
+          "sha256": "c5d4088737e8921df4ec6d8b416e296c29e92c8c878ff8f887e9e397038e5885",
+          "sha1": "cd382b87891e463c7595a1326be25c9272b9719f",
+          "md5": "4be714578631d6f711293353fbc11d2e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "caffeine-2.8.6-sources.jar",
+          "url": "caffeine-2.8.6-sources.jar",
+          "size": 735121,
+          "sha512": "63c5b0f4b4c1715502f8da4b1c8987d1f73533c598f6c2f4465b34430ca0aebafec007b3061ad866db46412dc03a79eeed306a60e8f38d902080c67b93e41028",
+          "sha256": "8388ea42d3396b9d89d7b0167f3153d4609eacafc3cbfb85b855a89ea69b6306",
+          "sha1": "a4faacce1f7c10c4917f80bcd09bc10f2a884045",
+          "md5": "d41d3fcf7dadfce92d8aa3d4e16316bf"
+        },
+        {
+          "name": "caffeine-2.8.6-sources.jar",
+          "url": "caffeine-2.8.6-sources.jar",
+          "size": 735121,
+          "sha512": "63c5b0f4b4c1715502f8da4b1c8987d1f73533c598f6c2f4465b34430ca0aebafec007b3061ad866db46412dc03a79eeed306a60e8f38d902080c67b93e41028",
+          "sha256": "8388ea42d3396b9d89d7b0167f3153d4609eacafc3cbfb85b855a89ea69b6306",
+          "sha1": "a4faacce1f7c10c4917f80bcd09bc10f2a884045",
+          "md5": "d41d3fcf7dadfce92d8aa3d4e16316bf"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "caffeine-2.8.6-all.jar",
+          "url": "caffeine-2.8.6-all.jar",
+          "size": 1138175,
+          "sha512": "14207e67893aa5f1bb5615e673890fcf914f5fcde10cfaa03d4a8bda2c30ee54d53d14065d68fa943abb63f7f9179de99a95035336009d02d2b04f071fcb2b7a",
+          "sha256": "8d7ffe058ad74ea18af88f25274854a27620a9c8b9b8fdcd1f53a535145f4cf0",
+          "sha1": "6efd808c5c8d7ef2ced0b2529aecee633fe4a4a6",
+          "md5": "6ebc3b2332b631ed570e6ef095594d4a"
+        }
+      ]
+    }
+  ]
+}
